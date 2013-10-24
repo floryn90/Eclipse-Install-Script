@@ -62,15 +62,15 @@ Encoding=UTF-8
 Name=Eclipse Kepler
 GenericName=Integrated Development Environment
 Comment=Eclipse Kepler Integrated Development Environment
-Exec=/opt/eclipse/Eclispe %F
-TryExec=/opt/eclipse/Eclipse
+Exec=/opt/eclipse/eclipse %F
+TryExec=/opt/eclipse/eclipse
 Icon=eclipse
 StartupNotify=true
 StartupWMClass=\"Eclipse\"
 Terminal=false
 Type=Application
 MimeType=text/xml;application/xhtml+xml;application/x-javascript;application/x-php;application/x-java;text/x-javascript;text/html;text/plain
-Categories=GNOME;Development;IDE;" >> /tmp/SC-Eclipse.desktop
-xdg-desktop-menu install /tmp/SC-Eclipse.desktop
+Categories=GNOME;Development;IDE;" >> /tmp/Eclipse.desktop
+xdg-desktop-menu install /tmp/Eclipse.desktop
 
 echo "Eclipse Kepler has been installed"
