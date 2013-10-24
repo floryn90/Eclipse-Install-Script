@@ -7,6 +7,6 @@ With this script you can install Eclipse Kepler 4.3.1 on your Ubuntu and derivat
 How to install
 ======================
 
-  cd <script dir>
+  cd < script dir >
   chmod +x Eclipse-Install.sh
   sudo ./Eclipse-Install.sh
