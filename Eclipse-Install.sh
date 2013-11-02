@@ -64,7 +64,7 @@ Icon=eclipse
 Terminal=false
 Type=Application
 MimeType=text/xml;application/xhtml+xml;application/x-javascript;application/x-php;application/x-java;text/x-javascript;text/html;text/plain
-Categories=GNOME;Development;IDE;" >> /tmp/Eclipse.desktop
-xdg-desktop-menu install /tmp/Eclipse.desktop
+Categories=GNOME;Development;IDE;" >> /tmp/Eclipse-Kepler.desktop
+xdg-desktop-menu install /tmp/Eclipse-Kepler.desktop
 
 echo "Eclipse Kepler has been installed"
