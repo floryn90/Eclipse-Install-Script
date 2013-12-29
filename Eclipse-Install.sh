@@ -52,7 +52,8 @@ fi
 # Fix for large icon problem
 cp /opt/eclipse/icon.xpm /usr/local/share/icons/eclipse.xpm
 
-echo "[Desktop Entry]
+echo "#!/usr/bin/env xdg-open
+[Desktop Entry]
 Version=1.0
 Encoding=UTF-8
 Name=Eclipse Kepler
