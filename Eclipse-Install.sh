@@ -21,9 +21,9 @@ echo "Downloading Eclipse"
 cd /tmp
 
 if [ ${MACHINE_TYPE} == 'x86_64' ]; then
-	wget http://cdn.mirror.garr.it/mirror3/mirrors/eclipse//technology/epp/downloads/release/kepler/SR1/eclipse-standard-kepler-SR1-linux-gtk-x86_64.tar.gz -O Eclipse.tar.gz
+	wget http://cdn.mirror.garr.it/mirror3/mirrors/eclipse//technology/epp/downloads/release/luna/SR1/eclipse-standard-luna-SR1-linux-gtk-x86_64.tar.gz -O Eclipse.tar.gz
 else
-	wget http://cdn.mirror.garr.it/mirror3/mirrors/eclipse//technology/epp/downloads/release/kepler/SR1/eclipse-standard-kepler-SR1-linux-gtk.tar.gz -O Eclipse.tar.gz
+	wget http://cdn.mirror.garr.it/mirror3/mirrors/eclipse//technology/epp/downloads/release/luna/SR1/eclipse-standard-luna-SR1-linux-gtk.tar.gz -O Eclipse.tar.gz
 fi
 
 
@@ -56,7 +56,7 @@ echo "#!/usr/bin/env xdg-open
 [Desktop Entry]
 Version=1.0
 Encoding=UTF-8
-Name=Eclipse Kepler
+Name=Eclipse Luna
 GenericName=Integrated Development Environment
 Comment=Eclipse Kepler Integrated Development Environment
 Exec=/opt/eclipse/eclipse
