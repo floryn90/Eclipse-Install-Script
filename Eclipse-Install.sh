@@ -21,9 +21,9 @@ echo "Downloading Eclipse"
 cd /tmp
 
 if [ ${MACHINE_TYPE} == 'x86_64' ]; then
-	wget http://cdn.mirror.garr.it/mirror3/mirrors/eclipse//technology/epp/downloads/release/luna/SR1/eclipse-standard-luna-SR1-linux-gtk-x86_64.tar.gz -O Eclipse.tar.gz
+	wget http://mirror3.mirror.garr.it/mirrors/eclipse/technology/epp/downloads/release/mars/R/eclipse-java-mars-R-linux-gtk-x86_64.tar.gz -O Eclipse.tar.gz
 else
-	wget http://cdn.mirror.garr.it/mirror3/mirrors/eclipse//technology/epp/downloads/release/luna/SR1/eclipse-standard-luna-SR1-linux-gtk.tar.gz -O Eclipse.tar.gz
+	wget http://mirror3.mirror.garr.it/mirrors/eclipse/technology/epp/downloads/release/mars/R/eclipse-dsl-mars-R-linux-gtk.tar.gz -O Eclipse.tar.gz
 fi
 
 
